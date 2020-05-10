@@ -1,0 +1,21 @@
+{
+  "name": "cdy-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Hu Chen",
+    "email": "chen@huchen.dev",
+    "url": "huchen.dev"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "bin": {
+    "cdy": "cli.js",
+    "cdy-cli": "cli.js"
+  }
+}
