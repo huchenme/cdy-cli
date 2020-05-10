@@ -1,21 +1,25 @@
 {
   "name": "cdy-cli",
+  "description": "CLI to execute command in a directory",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "author": {
     "name": "Hu Chen",
     "email": "chen@huchen.dev",
-    "url": "huchen.dev"
+    "url": "https://huchen.dev"
   },
   "engines": {
     "node": ">=8"
   },
-  "files": [
-    "cli.js"
-  ],
   "bin": {
-    "cdy": "cli.js",
-    "cdy-cli": "cli.js"
+    "cdy": "cli.js"
+  },
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "update-notifier": "^4.1.0"
+  },
+  "devDependencies": {
+    "semantic-release": "^17.0.7"
   }
 }
