@@ -20,7 +20,7 @@
     "update-notifier": "^4.1.0"
   },
   "devDependencies": {
-    "semantic-release": "^17.0.7"
+    "semantic-release": "^19.0.3"
   },
   "scripts": {
     "semantic-release": "semantic-release"
